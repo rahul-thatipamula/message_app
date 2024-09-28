@@ -20,7 +20,7 @@
 <h2>Setup:</h2>
 <ol>
   <li>Clone the repository:
-    <pre><code>git clone https://github.com/rahul-thatipamula/chat_app.git</code></pre>
+    <pre><code>git clone https://github.com/rahul-thatipamula/message_app</code></pre>
   </li>
   <li>Install dependencies:
     <pre><code>flutter pub get</code></pre>
