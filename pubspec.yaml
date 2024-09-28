@@ -7,13 +7,29 @@ environment:
   sdk: '>=3.3.4 <4.0.0'
 
 dependencies:
+  cloud_firestore: ^5.0.2
+  firebase_auth: ^5.1.0
+  firebase_core: ^3.1.0
+  firebase_messaging: ^15.0.2
+  firebase_storage: ^12.1.0
   flutter:
     sdk: flutter
+  flutter_dotenv: ^5.1.0
+  flutter_launcher_icons: ^0.13.1
+  image_picker: ^1.1.2
+  onesignal_flutter: ^5.2.5
+  uuid: ^4.5.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
+  flutter_launcher_icons: "^0.13.1"
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/images/chat.png
+
+
+
