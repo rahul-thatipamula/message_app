@@ -1,6 +1,6 @@
 <h1>Message App</h1>
 
-<p><strong>Chat App</strong> is a real-time messaging application built using <strong>Flutter</strong> and powered by <strong>Firebase</strong>. The app allows users to authenticate, search for other users by email, and initiate conversations.</p>
+<p><strong>Message App</strong> is a real-time messaging application built using <strong>Flutter</strong> and powered by <strong>Firebase</strong>. The app allows users to authenticate, search for other users by email, and initiate conversations.</p>
 
 <h2>Features:</h2>
 <ul>
