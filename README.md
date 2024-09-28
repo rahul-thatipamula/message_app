@@ -30,6 +30,16 @@
   </li>
 </ol>
 
+
+
+<h2>DEMO</h2>
+![image](https://github.com/user-attachments/assets/14bcab08-d672-432d-a6e5-232623bd1836)
+![image](https://github.com/user-attachments/assets/6765a4a8-5f4a-4824-a320-1f271f3ecf4a)
+![image](https://github.com/user-attachments/assets/bff64fca-26af-4389-b629-64b844cec0e0)
+![image](https://github.com/user-attachments/assets/4ce70d8a-4639-4035-84be-03aa14104290)
+![image](https://github.com/user-attachments/assets/73ae35dd-1d3f-4189-bca6-9c8bd342b8ef)
+
+
 <h2>Future Enhancements:</h2>
 <ul>
   <li><strong>Group Chats:</strong> Enable group conversations with multiple users.</li>
