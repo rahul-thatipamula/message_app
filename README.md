@@ -1,6 +1,6 @@
-<h1>Chat App</h1>
+<h1>Message App</h1>
 
-<p><strong>Chat App</strong> is a real-time messaging application built using <strong>Flutter</strong> and powered by <strong>Firebase</strong>. The app allows users to authenticate, search for other users by email, and initiate conversations.</p>
+<p><strong>Message App</strong> is a real-time messaging application built using <strong>Flutter</strong> and powered by <strong>Firebase</strong>. The app allows users to authenticate, search for other users by email, and initiate conversations.</p>
 
 <h2>Features:</h2>
 <ul>
@@ -20,7 +20,7 @@
 <h2>Setup:</h2>
 <ol>
   <li>Clone the repository:
-    <pre><code>git clone https://github.com/rahul-thatipamula/chat_app.git</code></pre>
+    <pre><code>git clone https://github.com/rahul-thatipamula/message_app</code></pre>
   </li>
   <li>Install dependencies:
     <pre><code>flutter pub get</code></pre>
@@ -29,6 +29,18 @@
     <pre><code>flutter run</code></pre>
   </li>
 </ol>
+
+
+
+<h2>Snapshots from Our App</h2>
+<div style="display: flex; justify-content: space-between;">
+  <img src="https://github.com/user-attachments/assets/23cd770c-a672-4a0b-a2ed-fd8199d85cd3" alt="Image 1" style="width: 100px; height: auto;">
+  <img src="https://github.com/user-attachments/assets/617562ef-1240-4b5b-94ad-e6e59768ebe7" alt="Image 2" style="width: 100px; height: auto;">
+  <img src="https://github.com/user-attachments/assets/c920228c-44dc-49f5-9051-32f709af58ca" alt="Image 3" style="width: 100px; height: auto;">
+  <img src="https://github.com/user-attachments/assets/fba37e9a-d78d-46f2-9f8d-fec5b3a178c5" alt="Image 4" style="width: 100px; height: auto;">
+  <img src="https://github.com/user-attachments/assets/1136a046-12b2-417e-b310-f1c30a0a9d1b" alt="Image 5" style="width: 100px; height: auto;">
+</div>
+
 
 <h2>Future Enhancements:</h2>
 <ul>
