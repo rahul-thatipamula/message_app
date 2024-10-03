@@ -27,7 +27,7 @@ class _HomeScreenState extends State<HomeScreen> {
     return Scaffold(
       appBar: AppBar(
         shadowColor: Colors.black,
-        title: const Text('Chat App'),
+        title: const Text('Message App'),
         backgroundColor: const Color.fromARGB(255, 149, 87, 148),
         actions: [
           IconButton(

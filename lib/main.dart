@@ -33,6 +33,7 @@ class App extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'FlutterChat',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData().copyWith(
         colorScheme: ColorScheme.fromSeed(
           seedColor: const Color.fromARGB(255, 238, 131, 0),
@@ -76,7 +77,7 @@ class _AuthStateHandlerState extends State<AuthStateHandler> {
             future: FirebaseHelper.getUserModelById(authSnapshot.data!.uid),
             builder: (context, userSnapshot) {
               if (userSnapshot.connectionState == ConnectionState.waiting) {
-                return SplashScreen(); // or a loading indicator
+                return SplashScreen(); // A loading indicator
               }
               if (userSnapshot.hasData) {
                 return HomeScreen(userData: userSnapshot.data!);

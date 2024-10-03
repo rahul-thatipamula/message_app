@@ -2,9 +2,7 @@ import 'package:chat_app/main.dart';
 import 'package:chat_app/models/chat_room_model.dart';
 import 'package:chat_app/models/messaage_model.dart';
 import 'package:chat_app/models/user_model.dart';
-import 'package:chat_app/widgets/new_messsage.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 // A MessageBubble for showing a single chat message on the ChatScreen.
@@ -42,7 +40,6 @@ class _MessageBubbleState extends State<MessageBubble> {
       sender: widget.currentUser!.uid,
       time: DateTime.now(),
       text: message,
-      seen: false,
     );
     FirebaseFirestore.instance
         .collection('chatrooms')
@@ -85,7 +82,7 @@ class _MessageBubbleState extends State<MessageBubble> {
                       .collection('chatrooms')
                       .doc(widget.chatRoom.chatRoomId)
                       .collection('messages')
-                      .orderBy('time', descending: true)
+                      .orderBy('time', descending: false)
                       .snapshots(),
                   builder: (context, snapshot) {
                     if (snapshot.connectionState == ConnectionState.active) {

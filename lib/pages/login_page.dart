@@ -14,6 +14,7 @@ class _LoginPageState extends State<LoginPage> {
   final _formKey = GlobalKey<FormState>();
   var _enteredEmail = TextEditingController();
   var _enteredPassword = TextEditingController();
+  var passwordVisible = false;
 
   bool _isAuthenticating = false;
   FirebaseAuth _auth = FirebaseAuth.instance;
@@ -57,13 +58,6 @@ class _LoginPageState extends State<LoginPage> {
         _isAuthenticating = false;
       });
     }
-    // if (userCredential != null) {
-    //   String uid = userCredential.user!.uid;
-    //   UserModel user = UserModel(
-    //     uid: uid,
-    //     email: _enteredEmail.text,
-    //   );
-    // }
   }
 
   @override
@@ -74,7 +68,6 @@ class _LoginPageState extends State<LoginPage> {
     super.dispose();
   }
 
-  var passwordVisible = false;
   @override
   Widget build(BuildContext context) {
     return Container(

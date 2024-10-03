@@ -5,6 +5,6 @@ class SplashScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return CircularProgressIndicator();
+    return Container(child: CircularProgressIndicator());
   }
 }
